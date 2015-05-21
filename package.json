@@ -1,0 +1,40 @@
+{
+  "name": "component-event-binding",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/component-event-binding.git"
+  },
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/component-event-binding",
+  "bugs": {
+    "url": "https://github.com/azu/component-event-binding/issues"
+  },
+  "version": "1.0.0",
+  "description": "component event binding patterns.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "watch": "watchify --debug -t babelify lib/App.js -o build.js"
+  },
+  "keywords": [
+    "event",
+    "component",
+    "react"
+  ],
+  "author": "azu",
+  "license": "MIT",
+  "dependencies": {
+    "deku": "^0.3.0",
+    "idempotent-bind": "^1.0.1",
+    "material-flux": "^1.2.0",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel": "^5.4.4",
+    "babelify": "^6.1.1",
+    "browserify": "^10.2.1",
+    "watchify": "^3.2.1"
+  }
+}
