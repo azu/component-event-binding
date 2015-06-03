@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build":"npm run build:app && npm run build:react && npm run build:deku",
-    "build:app":"browserify --debug -t babelify lib/App.js -o build.js",
+    "build:app":"browserify --debug -t babelify lib/App.js -o build.app.js",
     "build:react":"browserify --debug -t babelify lib/ReactApp.js -s ReactApp -o react-build.js",
     "build:deku":"browserify --debug -t [ babelify --jsxPragma 'element' ] lib/DekuApp.js -s DekuApp -o deku-build.js"
   },
